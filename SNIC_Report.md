@@ -2,7 +2,7 @@
 title: "CS 558 Final project Question 4"
 author: "Zhenyue Liu"
 date: "November 27, 2018"
-output: html_document
+
 ---
 
 
