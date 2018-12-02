@@ -5,9 +5,6 @@ date: "November 27, 2018"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Applied Superpixels using Simple Non-Iterative Clustering (SNIC)
 ## Introduction
