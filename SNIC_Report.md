@@ -97,7 +97,7 @@ We could see that SNIC has the smallest distance to ground truth, which means it
 For image 2, I use another benchmark introduced by Arbelaez et al., to evaluate superpixel algorithms. The benchmark includes Boundary Recall(Rec) and Undersegmentation Error(UE) as primary metrics to asses superpixel algorithms, and in this project, I will just use Rec to implemente.
 ![image7](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/all_gt.png)  
 
-|X1             | SLIC_Liu|    SNIC| SLIC_skimage|
+|X1             | SLIC_Liu| SNIC   | SLIC_skimage|
 |:--------------|--------:|-------:|------------:|
 |Average        |  0.00715| 0.00571|      0.00559|
 |Ground_truth_1 |  0.00711| 0.00560|      0.00589|
