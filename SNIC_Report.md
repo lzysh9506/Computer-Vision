@@ -31,11 +31,11 @@ Image source:
 ### Data
 
 The frist image comes from homework 3  
-![Image 1](Final4\wt_slic.png)   
+![Image1](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/wt_slic.png)   
 
 
 The second image (Both original image and ground truth boundary) comes from BSDS500 dataset.   
-![Image 2](E:\SIT\CS558\FINAL\Q4\Final4\118035.jpg) 
+![Image2](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/118035.jpg) 
 
 ##Run
 
@@ -50,10 +50,10 @@ The second image (Both original image and ground truth boundary) comes from BSDS
 
 ## Result
 
-![](E:\SIT\CS558\FINAL\Q4\Final4\all_seg_0.png)   
+![image3](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_seg_0.png)   
 
 <br>
-![](E:\SIT\CS558\FINAL\Q4\Final4\all_seg_1.png)   
+![image4](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_seg_1.png)   
 
 
 ## Discussion
@@ -83,11 +83,11 @@ We could see directly from three image:
 For Image 1, I just choose one part to analyze, following is the edge cutout by Photoshop :
 <br>
 
-![](E:\SIT\CS558\FINAL\Q4\Final4\edge_truth0.png)   
+![image5](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/edge_truth0.png)   
  
 <br>
  
-![](E:\SIT\CS558\FINAL\Q4\Final4\all_HOG.png)
+![image6](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_HOG.png)
 
 I crop the same part from all three images, using canny edge detector to generate HOG, and caculate their distance to the HOG of ground truth.  
 `Dist between HOG of ground truth and HOG of SLIC by Zhenyue Liu : 0.029191`
@@ -98,7 +98,7 @@ We could see that SNIC has the smallest distance to ground truth, which means it
 
 ####Image 2
 For image 2, I use another benchmark introduced by Arbelaez et al., to evaluate superpixel algorithms. The benchmark includes Boundary Recall(Rec) and Undersegmentation Error(UE) as primary metrics to asses superpixel algorithms, and in this project, I will just use Rec to implemente.
-![](E:\SIT\CS558\FINAL\Q4\Final4\all_gt.png)  
+![image7](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_gt.png)  
 
 |X1             | SLIC_Liu|    SNIC| SLIC_skimage|
 |:--------------|--------:|-------:|------------:|
