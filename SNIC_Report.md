@@ -28,11 +28,11 @@ Image source:
 ### Data
 
 The frist image comes from homework 3  
-![Image1](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/wt_slic.png)   
+![Image](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/wt_slic.png)   
 
 
 The second image (Both original image and ground truth boundary) comes from BSDS500 dataset.   
-![Image2](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/118035.jpg) 
+![Image](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/118035.jpg) 
 
 ##Run
 
