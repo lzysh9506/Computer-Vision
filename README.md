@@ -19,4 +19,4 @@
 - Apply k-means using RGB hist to detect skys in the image
 
 ## Final Simple Non-iterative Clustering (SNIC)
-- See the file `Readme.pdf`
+- See the file `SNIC_Report.md`
