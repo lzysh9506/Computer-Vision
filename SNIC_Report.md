@@ -59,7 +59,7 @@ The second image (Both original image and ground truth boundary) comes from BSDS
 
 `>>> [Image 1] SLIC Algorithm written by Zhenyue Liu consuming time: 684.7430646419525`  
 `>>> [Image 1] SNIC Algorithm consuming time: 39.16222429275513`  
-`>>> [Image 1] SLIC Algorithm from skimage package consuming time: 0.03571367263793945`
+`>>> [Image 1] SLIC Algorithm from skimage package consuming time: 0.03571367263793945`  
 `>>> [Image 2] SLIC Algorithm written by Zhenyue Liu consuming time: 148.2505235671997`  
 `>>> [Image 2] SNIC Algorithm consuming time: 9.404099464416504`  
 `>>> [Image 2] SLIC Algorithm from skimage package consuming time: 0.020943403244018555`
@@ -87,8 +87,8 @@ For Image 1, I just choose one part to analyze, following is the edge cutout by 
 ![image6](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/all_HOG.png)
 
 I crop the same part from all three images, using canny edge detector to generate HOG, and caculate their distance to the HOG of ground truth.  
-`Dist between HOG of ground truth and HOG of SLIC by Zhenyue Liu : 0.029191`
-`Dist between HOG of ground truth and HOG of SNIC : 0.004785`
+`Dist between HOG of ground truth and HOG of SLIC by Zhenyue Liu : 0.029191`  
+`Dist between HOG of ground truth and HOG of SNIC : 0.004785`  
 `Dist between HOG of ground truth and HOG of SLIC by skimage  : 0.005898`  
 <br>
 We could see that SNIC has the smallest distance to ground truth, which means its effect of segmentation is best.
