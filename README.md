@@ -2,7 +2,7 @@
 
 ## Homework 1
 - Use gaussian filter to smooth image
-- Use sobel silter to get gradient descent and detect edges
+- Use sobel filter to get gradient descent and detect edges
 - Use non-maximum supression to shrink the edge 
 
 ## Homework 2
