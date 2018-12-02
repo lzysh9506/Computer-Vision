@@ -1,5 +1,4 @@
 # CS 558 Computer Vision 
-Simple Non-Iterative Clustering
 
 ## Homework 1
 - Use gaussian filter to smooth image
