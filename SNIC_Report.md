@@ -28,11 +28,11 @@ Image source:
 ### Data
 
 The frist image comes from homework 3  
-![Image](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/wt_slic.png)   
+![Image1](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/wt_slic.png)   
 
 
 The second image (Both original image and ground truth boundary) comes from BSDS500 dataset.   
-![Image](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/118035.jpg) 
+![Image2](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/118035.jpg) 
 
 ##Run
 
@@ -47,10 +47,10 @@ The second image (Both original image and ground truth boundary) comes from BSDS
 
 ## Result
 
-![image3](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_seg_0.png)   
+![image3](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/all_seg_0.png)    
 
-<br>
-![image4](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_seg_1.png)   
+
+![image4](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/all_seg_1.png)   
 
 
 ## Discussion
@@ -80,11 +80,11 @@ We could see directly from three image:
 For Image 1, I just choose one part to analyze, following is the edge cutout by Photoshop :
 <br>
 
-![image5](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/edge_truth0.png)   
+![image5](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/edge_truth0.png)   
  
 <br>
  
-![image6](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_HOG.png)
+![image6](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/all_HOG.png)
 
 I crop the same part from all three images, using canny edge detector to generate HOG, and caculate their distance to the HOG of ground truth.  
 `Dist between HOG of ground truth and HOG of SLIC by Zhenyue Liu : 0.029191`
@@ -95,7 +95,7 @@ We could see that SNIC has the smallest distance to ground truth, which means it
 
 ####Image 2
 For image 2, I use another benchmark introduced by Arbelaez et al., to evaluate superpixel algorithms. The benchmark includes Boundary Recall(Rec) and Undersegmentation Error(UE) as primary metrics to asses superpixel algorithms, and in this project, I will just use Rec to implemente.
-![image7](https://github.com/lzysh9506/Computer-Vision/tree/master/Final4/all_gt.png)  
+![image7](https://github.com/lzysh9506/Computer-Vision/raw/master/Final4/all_gt.png)  
 
 |X1             | SLIC_Liu|    SNIC| SLIC_skimage|
 |:--------------|--------:|-------:|------------:|
@@ -104,7 +104,8 @@ For image 2, I use another benchmark introduced by Arbelaez et al., to evaluate 
 |Ground_truth_2 |  0.00519| 0.00375|      0.00401|
 |Ground_truth_3 |  0.01023| 0.00865|      0.00780|
 |Ground_truth_4 |  0.00603| 0.00462|      0.00488|
-|Ground_truth_5 |  0.00720| 0.00591|      0.00540|
+|Ground_truth_5 |  0.00720| 0.00591|      0.00540|  
+
 In BSDS500 dataset, five ground truth pictures with different levels of details are given. In the consequence table, all recall score are not absolute, but just comparable with each other. We could see that SLIC written by Liu has best performance in all images, and SNIC has roughly the same performance with SLIC by skimage. 
 
 ### Conclusion
